@@ -1,0 +1,1 @@
+Una excepción ocurre en tiempo de ejecución (runtime) cuando la aplicación, en una operación en particular, ha transcurrido a un estado anómalo o excepcional. 
