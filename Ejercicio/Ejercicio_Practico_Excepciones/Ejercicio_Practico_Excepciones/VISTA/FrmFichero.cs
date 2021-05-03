@@ -23,27 +23,16 @@ namespace Ejercicio_Practico_Excepciones.VISTA
 
             /* PUEDES CORREGIR LA DIRECCION DEL FICHERO DESPUES DE CAPTURAR LA EXCEPCION*/ /* "excepciones.txt" */
 
-            //TextReader text = new StreamReader("excepcionestxt");
+            TextReader text = new StreamReader("excepcionestxt");
 
-            //txtMostrar.AppendText(text.ReadToEnd());
+            txtMostrar.AppendText(text.ReadToEnd());
 
 
-            //TextReader text = null;
+           
 
-            try
-            {
-                TextReader text = new  StreamReader("excepcionestxt");
-                txtMostrar.AppendText(text.ReadToEnd());
-            }
 
-            catch (Exception ex )
-            {
-                MessageBox.Show("HA OCURRIDO UN ERROR CON EL ARCHIVO " + ex.Message);
-                this.Close();
-            }
-            
-            
-            
+
+
         }
     }
 }

@@ -58,6 +58,7 @@ namespace Ejercicio_Practico_Excepciones.VISTA
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtMostrar);
             this.Name = "FrmFichero";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmFichero";
             this.Load += new System.EventHandler(this.FrmFichero_Load);
             this.ResumeLayout(false);
